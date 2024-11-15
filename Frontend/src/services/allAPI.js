@@ -85,7 +85,6 @@ export const getAllDrivers = async () => {
 }
 
 //  Edit driver Leave Status
-//  Edit driver Leave Status
 export const editLeaveStatusDriver = async (driver_id, reqbody) => {
     return await commonAPI("PUT", `${SERVERURL}/editLeaveStatus/${driver_id}`, reqbody, '');
 }

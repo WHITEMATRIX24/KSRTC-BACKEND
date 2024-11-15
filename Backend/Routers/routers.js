@@ -64,6 +64,7 @@ router.get('/getAllTripDetails', getAllTripDetails);
 router.put('/editTripDetails/:_id', editTripDetails);
 // New Edit Trip Details
 router.put('/editTripDetailsnew/:trip_id/:vehicle_id/:driver_id/:conductor_id', editTripDetailsNew);
+
 router.get('/getAllCompletedTripDetails', getAllCompletedTripDetails);
 
 
